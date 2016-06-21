@@ -1,0 +1,7 @@
+<template name="dstHomeTemplate">
+<header><h1>Home index</h1></header>
+{{#each tags}}
+<a class="rui tag link" href="{{pathFor "tag" slug=slug}}" data-id="{{_id}}">{{name}}</a>
+
+{{/each}}
+</template>
