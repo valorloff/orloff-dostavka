@@ -3,7 +3,7 @@
  */
 if (ReactionCore && ReactionCore.Hooks) {
   ReactionCore.Hooks.Events.add("onCoreInit", () => {
-    ReactionCore.Log.info("Initialize using reaction-sample-data");
+    ReactionCore.Log.info("Initialize using fixture-data");
     ReactionImport.fixture().process(Assets.getText("private/data/Shops.json"), ["name"], ReactionImport.shop);
     // ensure Shops are loaded first.
     ReactionImport.flush(ReactionCore.Collections.Shops);
@@ -16,7 +16,7 @@ if (ReactionCore && ReactionCore.Hooks) {
 ReactionCore.Hooks.Events.add("afterCoreInit", () => {
     modifyCheckoutWorkflow();
   });
-  
+
   function modifyCheckoutWorkflow() {
   // Replace checkoutReview with our custom Template
   ReactionCore.Collections.Packages.update({
@@ -30,6 +30,18 @@ ReactionCore.Hooks.Events.add("afterCoreInit", () => {
     "$set": {
       "layout.$.template": "checkoutSimpleorder",
       "layout.$.label": "Review Order"
+    }
+  });
+  ReactionCore.Collections.Packages.update({
+    "name": "reaction-paymentmethod",
+    "registry": {
+      "$elemMatch": {
+        "template": "genericPaymentForm"
+      }
+    }
+  }, {
+    "$set": {
+      "registry.$.template": "dstPaymentForm"
     }
   });
 }

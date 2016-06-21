@@ -1,5 +1,5 @@
 ReactionCore.registerPackage({
-  label: "Dostavka.net.ua",
+  label: "Dostavkanetua",
   name: "dst",
   icon: "fa fa-vine",
   autoEnable: true,
