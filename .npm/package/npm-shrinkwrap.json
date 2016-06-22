@@ -1,0 +1,109 @@
+{
+  "dependencies": {
+    "accounting": {
+      "version": "0.4.1",
+      "resolved": "https://registry.npmjs.org/accounting/-/accounting-0.4.1.tgz",
+      "from": "accounting@0.4.1"
+    },
+    "autosize": {
+      "version": "3.0.15",
+      "resolved": "https://registry.npmjs.org/autosize/-/autosize-3.0.15.tgz",
+      "from": "autosize@3.0.15"
+    },
+    "draggabilly": {
+      "version": "1.2.0",
+      "resolved": "https://registry.npmjs.org/draggabilly/-/draggabilly-1.2.0.tgz",
+      "from": "draggabilly@1.2.0",
+      "dependencies": {
+        "desandro-classie": {
+          "version": "1.0.1",
+          "resolved": "https://registry.npmjs.org/desandro-classie/-/desandro-classie-1.0.1.tgz",
+          "from": "desandro-classie@>=1.0.1 <1.1.0"
+        },
+        "desandro-get-style-property": {
+          "version": "1.0.4",
+          "resolved": "https://registry.npmjs.org/desandro-get-style-property/-/desandro-get-style-property-1.0.4.tgz",
+          "from": "desandro-get-style-property@>=1.0.4 <1.1.0"
+        },
+        "get-size": {
+          "version": "1.2.2",
+          "resolved": "https://registry.npmjs.org/get-size/-/get-size-1.2.2.tgz",
+          "from": "get-size@>=1.2.2 <1.3.0"
+        },
+        "unidragger": {
+          "version": "1.1.5",
+          "resolved": "https://registry.npmjs.org/unidragger/-/unidragger-1.1.5.tgz",
+          "from": "unidragger@>=1.1.0 <1.2.0",
+          "dependencies": {
+            "eventie": {
+              "version": "1.0.6",
+              "resolved": "https://registry.npmjs.org/eventie/-/eventie-1.0.6.tgz",
+              "from": "eventie@>=1.0.6 <1.1.0"
+            },
+            "unipointer": {
+              "version": "1.1.0",
+              "resolved": "https://registry.npmjs.org/unipointer/-/unipointer-1.1.0.tgz",
+              "from": "unipointer@>=1.1.0 <1.2.0",
+              "dependencies": {
+                "wolfy87-eventemitter": {
+                  "version": "4.2.11",
+                  "resolved": "https://registry.npmjs.org/wolfy87-eventemitter/-/wolfy87-eventemitter-4.2.11.tgz",
+                  "from": "wolfy87-eventemitter@>=4.2.11 <4.3.0"
+                }
+              }
+            }
+          }
+        },
+        "wolfy87-eventemitter": {
+          "version": "4.3.0",
+          "resolved": "https://registry.npmjs.org/wolfy87-eventemitter/-/wolfy87-eventemitter-4.3.0.tgz",
+          "from": "wolfy87-eventemitter@>=3.0.0 <5.0.0"
+        }
+      }
+    },
+    "imagesloaded": {
+      "version": "4.1.0",
+      "resolved": "https://registry.npmjs.org/imagesloaded/-/imagesloaded-4.1.0.tgz",
+      "from": "imagesloaded@4.1.0",
+      "dependencies": {
+        "ev-emitter": {
+          "version": "1.0.3",
+          "resolved": "https://registry.npmjs.org/ev-emitter/-/ev-emitter-1.0.3.tgz",
+          "from": "ev-emitter@>=1.0.0 <1.1.0"
+        }
+      }
+    },
+    "jquery": {
+      "version": "2.2.3",
+      "resolved": "https://registry.npmjs.org/jquery/-/jquery-2.2.3.tgz",
+      "from": "jquery@2.2.3"
+    },
+    "jquery-tags-input": {
+      "version": "1.3.5",
+      "resolved": "https://registry.npmjs.org/jquery-tags-input/-/jquery-tags-input-1.3.5.tgz",
+      "from": "jquery-tags-input@1.3.5"
+    },
+    "jquery-ui": {
+      "version": "1.10.5",
+      "resolved": "https://registry.npmjs.org/jquery-ui/-/jquery-ui-1.10.5.tgz",
+      "from": "jquery-ui@1.10.5"
+    },
+    "jquery.payment": {
+      "version": "1.2.4",
+      "resolved": "https://registry.npmjs.org/jquery.payment/-/jquery.payment-1.2.4.tgz",
+      "from": "jquery.payment@1.2.4",
+      "dependencies": {
+        "jquery": {
+          "version": "3.0.0",
+          "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.0.0.tgz",
+          "from": "jquery@>=1.5.0"
+        }
+      }
+    },
+    "money": {
+      "version": "0.2.0",
+      "resolved": "https://registry.npmjs.org/money/-/money-0.2.0.tgz",
+      "from": "money@0.2.0"
+    }
+  }
+}

@@ -5,7 +5,7 @@ ReactionCore.registerPackage({
   autoEnable: true,
   layout: [
   {
-      layout: "dstCoreLayout",
+      layout: "coreLayout",
       workflow: "coreWorkflow",
       collection: "Products",
       theme: "default",
@@ -20,5 +20,21 @@ ReactionCore.registerPackage({
         dashboardHeaderControls: "",
         adminControlsFooter: "adminControlsFooter"
       }
-    }]
+    },{
+        layout: "dstCoreLayout",
+        workflow: "coreWorkflow",
+        collection: "Tags",
+        theme: "default",
+        enabled: true,
+        structure: {
+          template: "dstHomeTemplate",
+          layoutHeader: "layoutHeader",
+          layoutFooter: "layoutFooter",
+          notFound: "productNotFound",
+          dashboardHeader: "",
+          dashboardControls: "dashboardControls",
+          dashboardHeaderControls: "",
+          adminControlsFooter: "adminControlsFooter"
+        }
+      }]
 });
