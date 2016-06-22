@@ -29,22 +29,24 @@ Package.onUse(function (api) {
   api.use("reactive-var");
   api.use("reactive-dict");
   api.use("less");
+
+
+  api.addFiles("server/register.js", "server");
+  api.addFiles("server/load.js", "server");
   // Private fixture data
     api.addAssets("private/data/Products.json", "server");
     api.addAssets("private/data/Shops.json", "server");
     api.addAssets("private/data/Tags.json", "server");
-
-  api.addFiles("server/load.js", "server");
-  api.addFiles("server/register.js", "server");
   api.addFiles("client/main.less", "client");
 
-  api.addFiles('client/templates/layouts/index.js', "client");
+
   api.addFiles("client/styles/variables.less", "client", {isImport: true});
   api.addFiles("client/styles/base.less", "client", {isImport: true});
   api.use("reactioncommerce:core-theme@2.0.0");
 
   //Templates
-  api.addFiles('client/templates/layouts/index.html', "client");
   api.addFiles("client/templates/layouts/core.html", "client");
+  api.addFiles('client/templates/layouts/index.html', "client");
+  api.addFiles('client/templates/layouts/index.js', "client");
   api.addFiles("client/templates/cart/checkout/payment/simplePayment.html","client");
 });

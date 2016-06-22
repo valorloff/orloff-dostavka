@@ -22,4 +22,16 @@
   },
   "_id": "rpjCvTBGjhBi2xdro",
   "shopId": "J8Bhq3uTtdgwZx3rz"
+}, {
+  "slug": "fazenda",
+  "name": "Fazenda",
+  "isTopLevel": true,
+  "updatedAt": {
+    "$date": "2015-04-09T13:23:57.412-0700"
+  },
+  "createdAt": {
+    "$date": "2014-06-09T13:23:57.412-0700"
+  },
+  "_id": "rpjCv4BGjhBi2xdro",
+  "shopId": "J8Bhq3uTtdgwZx3rz"
 }]
